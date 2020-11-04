@@ -134,9 +134,14 @@
     margin-top: 3rem;
 }
 
-.img100x100 {
-    width: 200px;
+.img {
     height: 200px;
+    width: 200px;
+}
+
+.card-image {
+    height: auto;
+    width: auto;
 }
 
 .card {
@@ -144,7 +149,6 @@
     text-align: center;
     width: 200px;
     height: auto;
-    margin: 1rem;
     padding: 1rem;
 }
 
