@@ -254,3 +254,8 @@
     color: black;
     animation-delay: 5ms;
 }
+
+.color-block:hover {
+    width: 100px;
+    height: 100px;
+}
