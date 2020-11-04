@@ -164,36 +164,83 @@
 }
 
 .left-grid {
-    width: 45%;
-    border: solid 1px black;
+    width: 50%;
     align-items: center;
     padding: 1rem;
 }
 
 .right-grid {
-    width: 45%;
-    border: solid 1px black;
+    width: 50%;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    border: 1px solid;
 }
 
 .grid-heading {
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 900;
+    text-align: center;
 }
 
-.content {}
+.content {
+    padding: 1em;
+}
 
-.small-heading {}
+.small-heading {
+    margin: 1em;
+    font-size: large;
+    text-align: center;
+}
+
+.img-grid {
+    height: auto;
+}
 
 .small-images {
     width: 100px;
     height: 100px;
-    margin: 1rem;
+    margin: 5px;
 }
 
+.small-images2 {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
 
+.footer {
+    height: 4rem;
+    margin-top: 2rem;
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-block {
+    height: 50px;
+    width: 50px;
+}
+
+.small-heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2em;
+}
+
+.text-pill {
+    background-color: grey;
+    border-radius: 20px;
+    width: 5em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+.
 /* hover */
 
 .nav-items:hover {
